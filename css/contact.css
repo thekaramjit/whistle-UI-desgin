@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bossImg{
+    height: 1359px;
+    background: url("../img/bg-footer.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    padding-bottom:45px ;
+}
+#bossImgHeading{
+    text-align: center;
+    /* color: #0088DE; */
+    color: white;
+    padding-top: 50px;
+}
+.bossImg .row{
+    margin-top: 75px;
+}
+.bossImg  input{
+    background-color: whitesmoke;
+}
+.accordion{
+        /* margin-top: 61px; */
+        padding: 31px;
+}
+.faqHeading{
+    padding-left: 27px;
+}
+#footer .container {
+    padding: 1px 0px 36px 0px;
+}
+
+@media screen and (max-width: 767px) {
+div#myContactnavbar {
+    position: absolute;
+    background: rgba(0,0,0,.5);
+    width: 100%;
+    top: 76px;
+    left: 0px;
+    padding-left: 30px;
+    max-width: 800px;
+    min-width: 800px;
+}
+}

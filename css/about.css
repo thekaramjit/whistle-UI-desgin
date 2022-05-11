@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    counter-reset: section;
+    overflow-x: hidden;
+  }
+#extra{
+    height: 83px;
+    width: 100%;
+}
+.pagination{
+    background:url("../img/snowMountain.jpg");
+    display: block !important;
+    height: 100px;
+    width: 100%;
+}
+.pagination h2{
+    color: #0DA1FF !important;
+    font-weight: bold;
+    padding-top: 27px;
+}
+.pagination h6{
+    padding-top: 27px;
+}
+.pagination h6 span{
+    color: #0DA1FF !important;
+
+}
+
+/* accordian start */
+#accordion .card a,#accordion .card .card-body{
+    color: gray;
+}
+#accordion .card a:active #accordion .card a{
+    color: black;
+}
+#accordion a.btn.collapsed {
+    color: gray !important;
+}
+#accordion a.btn {
+    color: black !important;
+}
+/* feactures start */
+#feacturesHeading{
+    height: 100px;
+    width: 100%;
+    background: url("../img/title-pattern.png");
+    
+}
+.feacturesHeadingsub h2{
+    font-size: 42px;
+}
+#feacturesHeadingsub{
+    width: 25%;
+    background: white;
+}
+#feacturesP{
+    font-size: 12px;
+    font-weight: 300;
+    background-color: white;
+}
+.nav-tabs .nav-link{
+    font-size: 18px;
+    font-weight: 400;
+    color: gray;
+    padding: 8px;
+}
+.nav-tabs .nav-link:active{
+    border: 1px solid black;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: black;
+    border: 2px solid black !important;
+    border-bottom: none !important;
+    background-color: #fff;
+}
+.nav-tabs{
+    border-bottom: 1px solid black !important;
+}
+#home .row ul li{
+    list-style-type:none;
+}
+.tab-content p{
+    margin-left: 39px;
+    color: gray;
+}
+.tab-content h4{
+   color: #2F2F2F;
+
+}
+.tab-content h4{
+   font-size:20px;
+
+}
+#menu1,#menu2{
+    color: black;
+}
+#menu1 h2,#menu3 h2{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'PT Serif', serif;
+color: gray;
+}
+#menu1 h2 span,#menu3 h2 span{
+    color: black;
+}
+#menu1 p,#menu3 p{
+    margin: 0px;
+    color: #000;
+}
+#menu1 ul,#menu3 ul{
+    margin: 0px;
+}
+#menu1 ul li,#menu3 ul li{
+    margin: 7px 0px;
+}
+#menu2 ul li{
+    list-style-type: none;
+}
+
+#menu2 h5{
+    font-size: 17px !important;
+    font-weight: 300;
+}
+#awareness{
+    margin-top: 60px;
+    height: 950px;
+    background: url("../img/aboutRunning.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#awareness .container{
+    margin-top: 65px;
+}
+#awareness .container i{
+    margin-left: 42%;
+    font-size: 27px;
+}
+#awareness .container .row p{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+#awareness .container h3{
+    margin-top: 10px;
+    font-size: 47px;
+}
+#playVideoImg{
+    display: block;
+    margin: auto;
+}
+#awarenessBtn{
+    margin-top:10px ;
+    border: 2px solid black;
+    margin: auto;
+    display: block;
+    padding: 10px;
+    background: white;
+}
+#awarenessBtn:hover{
+    border: 2px solid #0DA1FF;
+    margin: auto;
+    display: block;
+    padding: 10px;
+    color: white;
+    background: #0DA1FF;
+}
+/* team start */
+div#teamHeading\ {
+    background:url("../img/title-pattern.png");
+    margin-bottom: 20px;
+}
+div#teamSubHeading\ {
+    background: white;
+    width: 19%;
+    padding: 8px;
+}
+#teamCard .card{
+    position: relative;
+    height: 318px;
+}
+#teamCard .card img{
+    width: 50%;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 37px;
+    transition: all 1s ease;
+    transform: rotate(0deg);
+}
+#teamCard .card:hover  .cardImg{
+    transform: rotate(10deg);
+}
+#teamCard .card:hover{
+    background-color: #0DA1FF;
+    border: 2px solid black;
+}
+#teamCard .card:hover h5{
+    color: white;
+}
+#teamCard .card:hover p{
+    display: none;
+}
+#teamContact{
+    font-size: 25px;
+    display: none;
+    position: absolute;
+    bottom: 44px;
+    color: white;
+}
+#teamCard .card:hover #teamContact{
+    display: block;
+
+}
+#beforeFooter .d-flex button{
+    padding: 10px;
+    border: 2px solid black;
+}
+#beforeFooter .d-flex button:hover{
+    color: white;
+    background-color: #0DA1FF;
+    border: none;
+}
+
+@media screen and (max-width: 767px) {
+    .feacturesHeadingsub {
+        width:50%;
+        background: white;
+    }
+    div#aboutmynavbar {
+        position: absolute;
+        background: rgba(0,0,0,.5);
+        width: 100%;
+        top: 76px;
+        left: -184px;
+        padding-left: 30px;
+        max-width: 800px;
+        min-width: 800px;
+    }
+    #awareness{
+        height:1450px;
+    }
+    #awareImg{
+        margin-left: 15%;
+    }
+    #playVideoImg{
+        width: 75%;
+    }
+    #awareness .container i{
+        margin-left: 47%;
+        font-size: 27px;
+        margin-top: 25px;
+    }
+    #teamCard .card{
+        margin-top: 25px;
+    }
+    .feacturesHeadingsub{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    div#aboutmynavbar {
+        position: absolute;
+        background: rgba(0,0,0,.5);
+        width: 100%;
+        top: 69px;
+        left: -154px;
+        max-width: 800px;
+        min-width: 800px;
+    }
+    .feacturesHeadingsub{
+        width: 52%;
+    }
+    #playVideoImg{
+        width: 75%;
+    }
+}
+

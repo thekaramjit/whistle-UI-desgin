@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WHISTLE</title>
+    <link rel="stylesheet" href="../css/about.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=PT+Serif&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+        <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
+
+</head>
+
+<body>
+    <!-- nav bar start -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top w-100">
+        <div class="container-fluid d-block">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-3">
+                    <a class="navbar-brand" href="#"><img class="w-50" src="../img/logo.png" alt="" /></a>
+                </div>
+
+                <div class="col-lg-1 col-md-1 col-sm-1"></div>
+
+                <div class="col-lg-8 col-md-8 col-9 navMain" style="padding: 0px">
+                    <div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#aboutmynavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="aboutmynavbar">
+                            <ul class="navbar-nav me-auto">
+                                <li class="nav-item dropdown text-dark" id="home">
+                                    <a class="nav-link text-light" href="index.html">HOME</a>
+                                    <ul class="dropdown-menu" id="homeDropdown">
+                                        <li>
+                                            <a class="dropdown-item text-dark" href="#"><i
+                                                    class="fa fa-chevron-right px-2"></i>Home Layout
+                                                1</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item text-dark" href="#"><i
+                                                    class="fa fa-chevron-right px-2"></i>Home Layout
+                                                2</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item text-dark" href="#"><i
+                                                    class="fa fa-chevron-right px-2"></i>Home Layout
+                                                3</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item text-dark" href="#"><i
+                                                    class="fa fa-chevron-right px-2"></i>Home Layout
+                                                4</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item text-dark" href="#"><i
+                                                    class="fa fa-chevron-right px-2"></i>Home Layout
+                                                5</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item dropdown text-dark">
+                                    <a class="nav-link text-light" href="./about.html">ABOUT</a>
+                                    <ul class="dropdown-menu" id="about">
+                                        <h3 id="aboutSubHeading">About</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Quae dolore tempora omnis nostrum sint provident? Illo
+                                            incidunt, alias eligendi inventore voluptatum
+                                            temporibus, delectus sequi, reprehenderit enim pariatur
+                                            consectetur. Dolorum, blanditiis.
+                                        </p>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item dropdown text-dark">
+                                    <a class="nav-link text-light" href="#">ACTIVITY</a>
+                                    <ul class="dropdown-menu" id="activityDropdown">
+                                        <li>
+                                            <a class="dropdown-item" href="#"><i
+                                                    class="fa fa-chevron-right px-1"></i>Activity
+                                                Detatil 1</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item text-dark" href="#"><i
+                                                    class="fa fa-chevron-right px-1"></i>Activity
+                                                Detatil 2</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item deactive dropdown text-dark" id="blogNavBar">
+                                    <a class="nav-link text-light" href="./blog.html">BLOG</a>
+                                    <ul class="dropdown-menu blogDropdownMenu">
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-xl-3 col-md-3 col-sm-6" style="position: relative">
+                                                    <h6>BLOG 1 COLUMN</h6>
+                                                    <ul>
+                                                        <li>Without sidebar</li>
+                                                        <li>Without Left sidebar</li>
+                                                        <li>Without Right sidebar</li>
+                                                        <li>Without Both sidebar</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-xl-3 col-md-3 col-sm-6" style="position: relative">
+                                                    <h6>BLOG 2 COLUMN</h6>
+                                                    <ul>
+                                                        <li>Without sidebar</li>
+                                                        <li>Without Left sidebar</li>
+                                                        <li>Without Right sidebar</li>
+                                                        <li>Without Both sidebar</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-xl-3 col-md-3 col-sm-6" style="position: relative">
+                                                    <h6>BLOG 3 COLUMN</h6>
+                                                    <ul>
+                                                        <li>Without sidebar</li>
+                                                        <li>Without Left sidebar</li>
+                                                        <li>Without Right sidebar</li>
+                                                        <li>Without Both sidebar</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-xl-3 col-md-3 col-sm-6" style="position: relative">
+                                                    <h6>BLOG 4 COLUMN</h6>
+                                                    <ul>
+                                                        <li>Without sidebar</li>
+                                                        <li>Without Left sidebar</li>
+                                                        <li>Without Right sidebar</li>
+                                                        <li>Without Both sidebar</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="./contact.html">CONTACT</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#" data-bs-toggle="collapse">ENQUIRY</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- nav bar end -->
+
+    <!-- extra section -->
+    <div id="extra"></div>
+    <!-- extra section end -->
+    <!-- pagiantion seciton start -->
+    <div class="pagination container-fluid">
+        <div class="row">
+            <div class="col-xl-6 col-md-6 col-6 "><h2 class="text-center">About</h2></div>
+            <div class="col-xl-6 col-md-6 col-6 "> <h6 class="text-center"><span>Home</span>> About</h6></div>
+        </div>
+        
+    </div>
+    <!-- pagiantion seciton end -->
+
+    <!-- boss content start -->
+    <div id="bossContent" class="container mt-5">
+        <div class="row">
+            <div class="col-xl-6 col-md-6 col-sm-12">
+                <div class="bossSlider">
+                    <div><img class="w-100" src="../img/surfing.jpg" alt=""></div>
+                    <div><img class="w-100" src="../img/basket-ball.jpg" alt=""></div>
+                    <div><img class="w-100" src="../img/racingAbout.jpg" alt=""></div>
+                    <div><img class="w-100" src="../img/golf.jpg" alt=""></div>
+                  </div>
+                  <div class="slider-nav my-3">
+                    <div><img class="w-100" src="../img/surfing.jpg" alt=""></div>
+                    <div><img class="w-100" src="../img/basket-ball.jpg" alt=""></div>
+                    <div><img class="w-100" src="../img/racingAbout.jpg" alt=""></div>
+                    <div><img class="w-100" src="../img/golf.jpg" alt=""></div>
+                  </div>
+            </div>
+
+            <div class="col-xl-6 col-md-6 col-sm-12 accordian">
+                <!-- accordian start -->
+                <div id="accordion">
+
+                    <div class="card">
+                      <div class="card-header">
+                        <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                            <b>FREE GAMES AVAILABLE</b>
+                        </a>
+                      </div>
+                      <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                        </div>
+                      </div>
+                    </div>
+                  
+                    <div class="card">
+                      <div class="card-header">
+                        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                          <B>BIG OFFERS ON MEMBERSHIP</B>
+                        </a>
+                      </div>
+                      <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi h litora torquent per coendrerit elit turpis, a porttitor tellus sollicitudin at. Class aptent taciti sociosqu
+                        </div>
+                      </div>
+                    </div>
+                  
+                    <div class="card">
+                      <div class="card-header">
+                        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                         <b>KIDS SPORTS ACADEMY</b> 
+                        </a>
+                      </div>
+                      <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi h litora torquent per coendrerit elit turpis, a porttitor tellus sollicitudin at. Class aptent taciti sociosqu
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="card">
+                      <div class="card-header">
+                        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+                        <b>EXPERTS TRAINING</b> 
+                        </a>
+                      </div>
+                      <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi h litora torquent per coendrerit elit turpis, a porttitor tellus sollicitudin at. Class aptent taciti sociosqu
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="card">
+                      <div class="card-header">
+                        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFive">
+                         <b> INDIVIDUAL SPORT COURTS</b>
+                        </a>
+                      </div>
+                      <div id="collapseFive" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi h litora torquent per coendrerit elit turpis, a porttitor tellus sollicitudin at. Class aptent taciti sociosqu
+                        </div>
+                      </div>
+                    </div>
+                  
+                  </div>
+                <!-- accordian end -->
+            </div>
+        </div>
+
+    </div>
+    <!-- boss content end -->
+
+    <!-- feactures start -->
+    <div id="feactures" class="container mt-5">
+        <div id="feacturesHeading">
+            <div class="feacturesHeadingsub bg-white p-2">
+                <h2><b>FEACTURES</b> </h2>
+                <p id="feactureP">SOME AMAZING LISTS WE HAVE</p>
+            </div>
+        </div>
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs mt-4">
+            <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="tab" href="#home">FOR MEN</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#menu1">FOR WOMEN</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#menu2">CROSS-FIT</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#menu3">AERIOBICS</a>
+            </li>
+        </ul>
+        
+        <!-- Tab panes -->
+        <div class="tab-content mt-4">
+            <div class="tab-pane container active" id="home">
+                <div class="row">
+                    <div class="col-xl-6 col-md-12 col-sm-12">
+                        <ul class="mt-4">    
+                            <li class="mt-3">
+                                <h4><i class="fas fa-baseball-ball mr-3"></i>Improve your Diet</h4>
+                                <p>Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at per conubia nostra, per inceptos himenaeos</p>
+                            </li>
+                            <li class="mt-3">
+                                <h4><i class="fas fa-baseball-ball mr-3"></i>Improve your Diet</h4>
+                                <p>Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at per conubia nostra, per inceptos himenaeos</p>
+                            </li>
+                            <li class="mt-3">
+                                <h4><i class="fas fa-baseball-ball mr-3"></i>Improve your Diet</h4>
+                                <p>Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at per conubia nostra, per inceptos himenaeos</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-6 col-md-12 col-sm-12">
+                        <img src="../img/responsive-about-image.jpg " class="w-100" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane container fade" id="menu1">
+                <div class="row">
+                    <div class="col-xl-9 col-md-12 col-sm-12">
+                        <h2 ><span>WHISTLE</span>  THEME FEATURES</h2>
+                        <p>In culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio nostrum exercitationem ullam corporis suscipit laboriosam.</p>
+                        <div class="row my-3">
+                            <div class="col-xl-6 col-md-6 col-sm-12">
+                                <ul>
+                                    <li><p>Lorem ipsum dolor sit dinissimos praesentium</p></li>
+                                    <li><p>Praesent convallis voluptatum deleniti atque corrupt</p></li>
+                                    <li><p>Nullam ac sapien sit libero tempore, cum soluta nobis</p></li>
+                                    <li><p>Phasellus auctor augue optio cumque nihil impedit</p></li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-6 col-md-6 col-sm-12">
+                                <ul>
+                                    <li><p>Lorem ipsum dolor sit dinissimos praesentium</p></li>
+                                    <li><p>Praesent convallis voluptatum deleniti atque corrupt</p></li>
+                                    <li><p>Nullam ac sapien sit libero tempore, cum soluta nobis</p></li>
+                                    <li><p>Phasellus auctor augue optio cumque nihil impedit</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-12 col-sm-12">
+                        <img src="../img/device.png" class="w-100 mt-5" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane container fade" id="menu2">
+                <div class="row">
+                    <div class="col-xl-6 col-md-6 col-sm-12">
+                        <img src="../img/device.png" class="w-100" alt="">
+                    </div>
+                    <div class="col-xl-6 col-md-6 col-sm-12">
+                        <p class="text-center text-dark"><b>book your place for tournament in just a few second</b> </p>
+                        <p class="text-center mt-4  m-0">In culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio nostrum</p>
+                        <p  class="text-center text-dark mt-4"><b> game tournament schedule:</b></p>
+                        <h5 class="my-4 ml-3">Lorem ipsum dolor sit dinissimos praesentium lorem ipsum dolor sit dinissimos praesentium</h5>
+                        <h5 class="my-4 ml-3">Praesent convallis voluptatum deleniti atque corrupti imus qui blanditiis voluptatum</h5>
+                        <h5 class="my-4 ml-3"> Nullam ac sapien sit libero tempore, cum soluta nobis magna enim, ullamcorper acommodo</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane container fade" id="menu3">
+                <div class="row">
+                    <div class="col-xl-9 col-md-6 col-sm-12">
+                        <h2 ><span>WHISTLE</span>  THEME FEATURES</h2>
+                        <p>In culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio nostrum exercitationem ullam corporis suscipit laboriosam.</p>
+                        <div class="row my-3">
+                            <div class="col-xl-6 col-md-6 col-sm-12">
+                                <ul>
+                                    <li><p>Lorem ipsum dolor sit dinissimos praesentium</p></li>
+                                    <li><p>Praesent convallis voluptatum deleniti atque corrupt</p></li>
+                                    <li><p>Nullam ac sapien sit libero tempore, cum soluta nobis</p></li>
+                                    <li><p>Phasellus auctor augue optio cumque nihil impedit</p></li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-6 col-md-6 col-sm-12">
+                                <ul>
+                                    <li><p>Lorem ipsum dolor sit dinissimos praesentium</p></li>
+                                    <li><p>Praesent convallis voluptatum deleniti atque corrupt</p></li>
+                                    <li><p>Nullam ac sapien sit libero tempore, cum soluta nobis</p></li>
+                                    <li><p>Phasellus auctor augue optio cumque nihil impedit</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-12 col-sm-12">
+                        <img src="../img/device.png" class="w-100 mt-5" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- feactures end -->
+
+    <!-- awareness start= -->
+    <div id="awareness">
+        <h2 class="text-center pt-5">REGISTER NOW FOR THE CAUSE</h2>
+        <h3 class="text-center ">REGISTER NOW FOR THE CAUSE</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-2 col-md-2 col-sm-12">
+                    <i class="fas fa-user-friends text-center"></i>
+                    <h3 class="text-center">1500</h3>
+                    <p class="text-center">Participants</p>
+                </div>
+                <div class="col-xl-2 col-md-2 col-sm-12">
+                    <i class="fas fa-globe-asia text-center"></i>
+                    <h3 class="text-center">45</h3>
+                    <p class="text-center">Cities</p>
+                </div>
+                <div class="col-xl-4 col-md-4 col-sm-12">
+                    <img src="../img/awareness.png" id="awareImg" alt="">
+                </div>
+                <div class="col-xl-2 col-md-2 col-sm-12">
+                    <i class="fas fa-globe-asia text-center"></i>
+                    <h3 class="text-center">45</h3>
+                    <p class="text-center">Cities</p>
+                </div>
+                <div class="col-xl-2 col-md-2 col-sm-12">
+                    <i class="fas fa-user-friends text-center"></i>
+                    <h3 class="text-center">1500</h3>
+                    <p class="text-center">Participants</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="../img/video_image.png" id="playVideoImg" alt="">
+        </div>
+        <button id="awarenessBtn" class="mt-5">RUN FOR THE CAUSE</button>
+        
+    </div>
+
+    <!-- awareness  end -->
+
+    <!-- our team start -->
+    <div id="team" class="my-4 ">
+        <div id="teamHeading " class="container">
+            <div id="teamSubHeading " class=" m-auto" >
+                <h2 class="text-center"> <b>OUR TEAM</b> </h2>
+                <p class="text-center">MEET OUR TEAM MATES</p>
+            </div>
+        </div>
+        
+        <div id="teamCard" class="container">
+            <div class="row ">
+                <div class="col-xl-3 col-md-3 col-6">
+                    <div class="card w-100">
+                        <img class="card-img-top cardImg" src="../img/img_avatar.png" alt="Card image">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">EMY RANGER</h5>
+                          <p class="card-text text-center">GYMNASTIC INSTRUCTOR</p>
+                          <p class="text-center"><i class="fas fa-phone mr-2"></i>(420) +152-124-123</p>
+                          <div id="teamContact">
+                            <i class="fab fa-facebook  mr-2 ml-5"></i>
+                            <i class="fab fa-twitter  mr-2 ml-1"></i>
+                            <i class="fab fa-google  mr-2 ml-1"></i>
+                          </div>
+                   
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-3 col-6">
+                    <div class="card w-100">
+                        <img class="card-img-top cardImg" src="../img/img_avatar.png" alt="Card image">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">EMY RANGER</h5>
+                          <p class="card-text text-center">GYMNASTIC INSTRUCTOR</p>
+                          <p class="text-center"><i class="fas fa-phone mr-2"></i>(420) +152-124-123</p>
+                          <div id="teamContact">
+                            <i class="fab fa-facebook  mr-2 ml-5"></i>
+                            <i class="fab fa-twitter  mr-2 ml-1"></i>
+                            <i class="fab fa-google  mr-2 ml-1"></i>
+                          </div>
+                   
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-3 col-6">
+                    <div class="card w-100">
+                        <img class="card-img-top cardImg" src="../img/img_avatar.png" alt="Card image">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">EMY RANGER</h5>
+                          <p class="card-text text-center">GYMNASTIC INSTRUCTOR</p>
+                          <p class="text-center"><i class="fas fa-phone mr-2"></i>(420) +152-124-123</p>
+                          <div id="teamContact">
+                            <i class="fab fa-facebook  mr-2 ml-5"></i>
+                            <i class="fab fa-twitter  mr-2 ml-1"></i>
+                            <i class="fab fa-google  mr-2 ml-1"></i>
+                          </div>
+                   
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-3 col-6">
+                    <div class="card w-100">
+                        <img class="card-img-top cardImg" src="../img/img_avatar.png" alt="Card image">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">EMY RANGER</h5>
+                          <p class="card-text text-center">GYMNASTIC INSTRUCTOR</p>
+                          <p class="text-center"><i class="fas fa-phone mr-2"></i>(420) +152-124-123</p>
+                          <div id="teamContact">
+                            <i class="fab fa-facebook  mr-2 ml-5"></i>
+                            <i class="fab fa-twitter  mr-2 ml-1"></i>
+                            <i class="fab fa-google  mr-2 ml-1"></i>
+                          </div>
+                   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- our team end -->
+
+    <!-- before footer content start -->
+    <div id="beforeFooter" class="my-5 container">
+        <h4 class="text-center"><b>WE HAVE THE BEST EQUIPMENTS, COACHERS AND THE BEST TRAINING PROGRAMS</b></h4>
+        <p class="text-center my-4 fw-300">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        <div class="d-flex my-4">
+            <div class="w-50"><button class="text-center " style="float: right;">VIEW PROGRAMS</button></div>
+            <div class="w-50"><button class="text-center ml-2">SIGN UP NOW</button></div>
+        </div>
+    </div>
+    
+    <!-- before foooter content end -->
+
+     <!-- footer start -->
+ <div id="footer" class=" text-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3 col-md-3 col-sm-12">
+                <img class="w-50 pb-4" src="../img//logo.png" alt="">
+                <p class="text-justify" style="line-height:29px;overflow: hidden; ">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, making it look like readable English.</p>
+            </div>
+            <div class="col-xl-3 col-md-3 col-sm-12" id="usefulLinks">
+                <h4 class="pb-4 text-center"><b>USEFUL LINKS</b></h4>
+                <ul>
+                    <li><a href="#"><i class="fa fa-check text- px-2 pb-3"></i>Membership offer</a></li>
+                    <li><a href="#"><i class="fa fa-check text- px-2 pb-3"></i>Training schedule</a></li>
+                    <li><a href="#"><i class="fa fa-check text- px-2 pb-3"></i>Inter compitions</a></li>
+                    <li><a href="#"><i class="fa fa-check text- px-2 pb-3"></i>Awards and Trophies</a></li>
+                </ul>
+            </div>
+            <div class="col-xl-3 col-md-3 col-sm-12 ">
+                <h4 class="pb-4"><b>LATEST POSTS</b></h4>
+                <div class="d-flex pb-3">
+                    <div class="w-25"><img src="../img/climbing.jpg" class="w-100" alt=""></div>
+                    <div><h6>Climbing Team</h6> <p>11 Feb 2015</p></div>
+                </div>
+                <div class="d-flex">
+                    <div class="w-25"><img src="../img/pic2.jpg" class="w-100" alt=""></div>
+                    <div><h6>Golf Court</h6> <p>11 Feb 2015</p></div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-3 col-sm-12" id="aboutFooter">
+                <h4 class="pb-4 text-center"><b>ABOUT WHISTLE</b></h4>
+                <ul>
+                    <li class="pb-3">Monday-Friday 04:00-12:00</li>
+                    <li class="pb-3">Saturday 14:00-21:00</li>
+                    <li class="pb-3">Sunday Holiday</li>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+    
+</div>
+<!-- footer end -->
+    
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./slick/slick.min.js"></script>
+    <script>
+        $('.bossSlider').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                fade: true,
+                asNavFor: '.slider-nav'
+            });
+        $('.slider-nav').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                asNavFor: '.bossSlider',
+                dots: true,
+                centerMode: true,
+                focusOnSelect: true
+            });
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

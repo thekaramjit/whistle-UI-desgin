@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pagination{
+    background:url("../img/snowMountain.jpg");
+    display: block !important;
+    height: 100px;
+    width: 100%;
+}
+.blogCards  .row .card {
+    position: relative;
+    overflow: hidden;
+}
+.cardImgDiv{
+    height: 247px;
+    width: 100%;
+    overflow: hidden;
+}
+.blogCards  .row .card .card-img-top {
+    height: 100%;
+    width: 100%;
+    transition: all .2s ease;
+}
+.blogCards  .row .card:hover .card-img-top {
+    height: 104%;
+    width: 104%;
+    transform: scale(1);
+}
+.blogCards  .row .card:hover .cardImgIcon {
+    display: block;
+}
+.cardImgIcon{
+    position: absolute;
+    background-color: #0DA1FF;
+    padding: 11px 19px;
+    color: white;
+    font-size: 34px;
+    top: 78px;
+    left: 147px;
+    border-radius: 50%;
+    display: none;
+}
+.blogCards  .row .card:hover .cardImgDiv::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:247px;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 65%, rgba(0,0,0,0.8) 98%);
+    
+}
+.blogCards  .row .card:hover{
+    box-shadow: 0 1px 1rem rgba(0,0,0,.5);
+}
+.blogCards  .row .card .card-text::after{
+    content: "";
+    position: absolute;
+    background-color: gray;
+    width: 61px;
+    height: 2px;
+    left: 15px;
+    bottom: 44px;
+}
+.blogCards  .row .card .card-title:hover{
+    color: #0DA1FF;
+}
+.blogCards  .row .card a{
+    text-decoration: none;
+    color: gray;
+    margin-top: 5px;
+}
+.blogCards  .row .card a:hover{
+    color: #0DA1FF;
+}
+
+@media screen and (max-width: 767px) {
+    div#blogmynavbar {  
+        position: absolute;
+        background: rgba(0,0,0,.5);
+        width: 100%;
+        top: 76px;
+        left: 0px;
+        padding-left: 30px;
+        max-width: 800px;
+        min-width: 800px;
+    }
+    .blogCards  .row .card {
+        position: relative;
+        margin-left: 10px;
+    }
+}

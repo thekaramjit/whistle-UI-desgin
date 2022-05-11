@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WHISTLE</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
+    <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+    <link rel="stylesheet" href="assets/tether/tether.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="assets/theme/css/style.css">
+    <link rel="stylesheet" href="assets/gallery/style.css">
+    <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+</head>
+
+<body>
+
+    <!-- nav bar start -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top w-100">
+        <div class="container-fluid d-block">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-3">
+                    <a class="navbar-brand" href="#"><img class="w-50" src="../img/logo.png" alt=""></a>
+                </div>
+
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                </div>
+
+                <div class="col-lg-8 col-md-8 col-9  navMain" style="padding: 0px;">
+                    <div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#mynavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse " id="mynavbar">
+                            <ul class="navbar-nav me-auto ">
+                                <li class="nav-item dropdown text-dark" id="home">
+                                    <a class="nav-link text-light" href="index.html">HOME</a>
+                                    <ul class="dropdown-menu" id="homeDropdown">
+                                        <li><a class="dropdown-item text-dark" href="#"><i class="fa fa-chevron-right px-2"></i>Home Layout 1</a></li>
+                                        <li><a class="dropdown-item text-dark" href="#"><i class="fa fa-chevron-right px-2"></i>Home Layout 2</a></li>
+                                        <li><a class="dropdown-item text-dark" href="#"><i class="fa fa-chevron-right px-2"></i>Home Layout 3</a></li>
+                                        <li><a class="dropdown-item text-dark" href="#"><i class="fa fa-chevron-right px-2"></i>Home Layout 4</a></li>
+                                        <li><a class="dropdown-item text-dark" href="#"><i class="fa fa-chevron-right px-2"></i>Home Layout 5</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item dropdown text-dark">
+                                    <a class="nav-link text-light" href="./about.html">ABOUT</a>
+                                    <ul class="dropdown-menu" id="about">
+                                        <h3 id="aboutSubHeading">About</h3>
+                                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolore tempora omnis nostrum sint provident? Illo incidunt, alias eligendi inventore voluptatum temporibus, delectus sequi, reprehenderit enim pariatur consectetur. Dolorum, blanditiis.</p>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item dropdown text-dark">
+                                    <a class="nav-link text-light" href="#">ACTIVITY</a>
+                                    <ul class="dropdown-menu" id="activityDropdown">
+                                        <li><a class="dropdown-item" href="#"><i class="fa fa-chevron-right px-1"></i>Activity Detatil 1</a></li>
+                                        <li><a class="dropdown-item text-dark"href="#"><i class="fa fa-chevron-right px-1"></i>Activity Detatil 2</a></li>
+                                    </ul>
+                                </li>
+                                
+                                <li class="nav-item deactive dropdown text-dark" id="blogNavBar">
+                                    <a class="nav-link text-light" href="./blog.html">BLOG</a>
+                                    <ul class="dropdown-menu blogDropdownMenu" >
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-xl-3 col-md-3 col-sm-6" style="position: relative;">
+                                                    <H6 >BLOG 1 COLUMN</H6>
+                                                    <ul>
+                                                        <li>Without sidebar</li>
+                                                        <li>Without Left sidebar</li>
+                                                        <li>Without Right sidebar</li>
+                                                        <li>Without Both sidebar</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-xl-3 col-md-3 col-sm-6" style="position: relative;">
+                                                    <H6 >BLOG 2 COLUMN</H6>
+                                                    <ul>
+                                                        <li>Without sidebar</li>
+                                                        <li>Without Left sidebar</li>
+                                                        <li>Without Right sidebar</li>
+                                                        <li>Without Both sidebar</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-xl-3 col-md-3 col-sm-6" style="position: relative;">
+                                                    <H6 >BLOG 3 COLUMN</H6>
+                                                    <ul>
+                                                        <li>Without sidebar</li>
+                                                        <li>Without Left sidebar</li>
+                                                        <li>Without Right sidebar</li>
+                                                        <li>Without Both sidebar</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-xl-3 col-md-3 col-sm-6" style="position: relative;">
+                                                    <H6 >BLOG 4 COLUMN</H6>
+                                                    <ul>
+                                                        <li>Without sidebar</li>
+                                                        <li>Without Left sidebar</li>
+                                                        <li>Without Right sidebar</li>
+                                                        <li>Without Both sidebar</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#gallery2-0" data-bs-toggle="collapse">GALLERY</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="./contact.html">CONTACT</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#" data-bs-toggle="collapse">ENQUIRY</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+        <!-- nav bar end -->
+
+        <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+    
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="../img/manswim.jpg" alt="" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="../img/para-surf.jpg" alt="" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="../img/maleWin.jpg" alt=" " class="d-block w-100">
+        </div>
+        </div>
+    
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    
+    <!-- carosal end -->
+
+    <!-- gallery start -->
+    <div id="gallery">
+        <div class="row">
+            <div  class="col-xl-2 col-md-2 col-6 rowSub">
+                <div class="mainOverlayDiv">
+                    <img class="w-100" src="../img/pic1.jpg" alt="">
+                    <div class="overlayDiv">
+                            <i class="fas fa-biking"></i><h3 class="text-center text-light mt-2">CYCLING</h3>
+                    </div>
+                </div>
+            </div>
+            <div  class="col-xl-2 col-md-2 col-6 rowSub">
+                <div class="mainOverlayDiv">
+                    <img class="w-100" src="../img/pic2.jpg" alt="">
+                    <div class="overlayDiv">
+                            <i class="fas fa-golf-ball"></i><h3 class="text-center text-light mt-2">GOLF</h3>
+                    </div>
+                </div>
+            </div>
+            <div  class="col-xl-2 col-md-2 col-6 rowSub">
+                <div class="mainOverlayDiv">
+                    <img class="w-100" src="../img/pic3.jpg" alt="">
+                    <div class="overlayDiv">
+                            <i class="fas fa-swimmer"></i><h3 class="text-center text-light mt-2">SWIMMING</h3>
+                    </div>
+                </div>
+            </div>
+            <div  class="col-xl-2 col-md-2 col-6 rowSub">
+                <div class="mainOverlayDiv">
+                    <img class="w-100" src="../img/pic4.jpg" alt="">
+                    <div class="overlayDiv">
+                            <i class="fas fa-table-tennis"></i><h3 class="text-center text-light mt-2">TENNIS</h3>
+                    </div>
+                </div>
+            </div>
+            <div  class="col-xl-2 col-md-2 col-6 rowSub">
+                <div class="mainOverlayDiv">
+                    <img class="w-100" src="../img/pic5.jpg" alt="">
+                    <div class="overlayDiv">
+                            <i class="fas fa-running"></i><h3 class="text-center text-light mt-2">RUNNING</h3>
+                    </div>
+                </div>
+            </div>
+            <div  class="col-xl-2 col-md-2 col-6  rowSub">
+                <div class="mainOverlayDiv">
+                    <img class="w-100" src="../img/pic6.jpg" alt="">
+                    <div class="overlayDiv">
+                            <i class="fas fa-dumbbell"></i><h3 class="text-center text-light mt-2">WEIGHT TRAINING</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- gallery end -->
+
+    <!-- SUBSCRIPTION start -->
+    <div class="my-5" id="subscription">
+        <div class="container">
+            <h2 class="text-center text-bold fw-bold">SUBSCRIPTION PRICES</h2>
+            <p class="text-center">EXCLUSIVE TRAINING PACKAGES</p>
+        </div>
+
+        <!-- subscription cards start -->
+        <div class="container my-4">
+            <div class="row ">
+                <div class="col-xl-4 col-md-6 col-sm-12 my-3">
+                    <div class="card w-100 m-auto">
+                        <img class="card-img-top" src="../img/gymTraining.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">SWIMMING COACH</h4>
+                            <H5>Training Center</H5>
+                            <p class="card-text">Aenean tempor tincidunt diam ut pretium. Nulla elementum rhoncus ante.</p>
+                        </div>
+                        <div class="d-flex w-100 subscriptionBtns">
+                            <div class="border cardDoller">82 $</div>
+                            <div class="border cardDays">215 days</div>
+                            <div class="border cardIcon"><i class="fas fa-long-arrow-alt-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12 my-3" id="middleCard">
+                    <div class="card w-100 m-auto">
+                        <img class="card-img-top" src="../img/tableTennis.jpg" alt="Card image">
+                        <div class="card-body">
+                        <h4 class="card-title">TENNIS CHAMPION</h4>
+                        <H5>Reputed Training</H5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a lectus eget orci.</p>
+                        </div>
+                        <div class="d-flex w-100 subscriptionBtns">
+                            <div class="border cardDoller">24 $</div>
+                            <div class="border cardDays">215 days</div>
+                            <div class="border cardIcon"><i class="fas fa-long-arrow-alt-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12 my-3">
+                    <div class="card w-100 m-auto">
+                        <img class="card-img-top" src="../img/climbing.jpg" alt="Card image">
+                        <div class="card-body">
+                        <h4 class="card-title">TREKKING PRACTICE</h4>
+                        <H5>By well Experienced</H5>
+                        <p class="card-text">Nunc at pretium est curabitur commodo leac est venenatis egestas sed aliquet.</p>
+                        </div>
+                        <div class="d-flex w-100 subscriptionBtns">
+                            <div class="border cardDoller">69 $</div>
+                            <div class="border cardDays">215 days</div>
+                            <div class="border cardIcon"><i class="fas fa-long-arrow-alt-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+        <!-- subscription cards end -->
+    </div>
+
+    <!-- SUBSCRIPTION end -->
+
+    <!-- bike racing start -->
+    <div id="bike" class="border">
+        <div id="bikeSkewDiv">
+            <div class="d-flex justify-content-around w-75 text-light iconDiv">
+                <div>
+                    <i class="fas fa-futbol"></i>
+                    <h6 class="mt-2">CHOOSE YOUR SPORT</h6>
+                </div>
+            
+                <div>
+                    <i class="fas fa-user-friends"></i>
+                    <h6 class="mt-2">TRAIN BY PROFESSIONAL</h6></div>
+               
+                <div>   
+                    <i class="fas fa-user-tie"></i>
+                    <h6 class="mt-2">BECOME A PRO</h6>
+                </div>
+            </div>
+            <h5 class="text-light"><b>CHOOSE YOUR SPORT
+                TRAIN BY PROFESSIONAL
+                BECOME A PRO
+                THE BEST WITH ALL IN-BUILT FEATURES TO MAKE AN AMAZING WEBSITE</b> </h5>
+                <p class="text-light mt-5" style="font-size: 19px;"><span> <b>WHISTLE</b></span>  is a Trendy Theme with the latest features and stays updated to the latest technological equipments.</p>
+                <button class="btn btn-outline-light">JOIN IN</button>
+                <button class="btn btn-outline-light">VIEW PLANS</button>
+        </div>
+        
+    </div>
+    <!-- bike racing end -->
+
+    <!-- snow boarding start -->
+    <div id="snowBoarding" class="my-5"  >
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-md-6 col-sm-12 p-0" id="snowBoardingMainImg">
+                    <img  src="../img/kidOnSurf.jpg" alt="" class="w-100">
+                    
+                <p class=" badge bg-primary text-light">$60</p>
+                </div>
+                <div class="col-xl-6 col-md-6 col-sm-12 d-flex flex-column px-4" id="snowBoardingFlexBox">
+                        <div class="d-flex m-auto">
+                            <div class="snowBoardingImgDiv">
+                                <img  src="../img/kidOnSurf.jpg" alt="">
+                                <p class=" badge bg-primary text-light">$60</p>
+                            </div>
+                            <div class="snowBoardingContentDiv">
+                                <p >1 aug 2021</p>
+                                <h4 class="text-primary"><b>SNOW BOARDING</b></h4>
+                                <p class="text-dark">Park City, 11th cross, Melbourne</p>
+                                <i class="fas fa-map-marker-alt text-primary"> Google Map</i>
+                            </div>
+                        </div>
+                        <div class="d-flex m-auto mt-3">
+                            <div class="snowBoardingImgDiv">
+                                <img src="../img/kidOnSurf.jpg" alt="">
+                                <p class=" badge bg-primary text-light">$60</p>
+                            </div>
+                            <div class="snowBoardingContentDiv">
+                                <p >1 aug 2021</p>
+                                <h4 class="text-primary"><b>SNOW BOARDING</b> </h4>
+                                <p class="text-dark">Park City, 11th cross, Melbourne
+                                </p>
+                                <i class="fas fa-map-marker-alt text-primary"> Google Map</i>
+                                
+                            </div>
+                        </div>
+                        <div class="d-flex m-auto mt-3">
+                            <div class="snowBoardingImgDiv">
+                                <img src="../img/kidOnSurf.jpg" alt="">
+                                <p class=" badge bg-primary text-light">$60</p>
+                            </div>
+                            <div class="snowBoardingContentDiv">
+                                <p>1 aug 2021</p>
+                                <h4 class="text-primary"><b>SNOW BOARDING</b></h4>
+                                <p class="text-dark">Park City, 11th cross, Melbourne</p>
+                                <i class="fas fa-map-marker-alt text-primary" > Google Map</i>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- snow boarding end -->
+
+    <!-- testimonial start -->
+    <div id="testimonial" class="container-fluid">
+        <div class="container testimonialSlider">
+            <div class="slider">
+                <blockquote  class="sliderSub">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap</blockquote>
+                <blockquote class="sliderSub">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</blockquote>
+                <blockquote class="sliderSub">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going t</blockquote>
+            </div>
+        </div>
+    </div>
+    <!-- testimonial end -->
+
+    <!-- image accordian start -->
+    <section class="mbr-gallery mbr-slider-carousel cid-ruuHhHl8AI" id="gallery2-0">
+
+        <div class="container">
+            <div>
+                <!-- Filter -->
+
+                <div class="mbr-gallery-filter container gallery-filter-active">
+                    <ul buttons="0">
+                        <li class="mbr-gallery-filter-all">
+                            <a class="btn btn-md btn-primary-outline active display-7" href="">All</a>
+                        </li>
+                    </ul>
+                </div><!-- Gallery -->
+                <div class="mbr-gallery-row">
+                    <div class="mbr-gallery-layout-default">
+                        <div>
+                            <div>
+                                <div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false"
+                                    data-tags="GYM">
+                                    <div href="#lb-gallery2-0" data-slide-to="0" data-toggle="modal"><img
+                                            src="assets/images/gymTraining.jpg" alt="" title=""><span
+                                            class="icon-focus"></span></div>
+                                </div>
+                                <div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false"
+                                    data-tags="FUN">
+                                    <div href="#lb-gallery2-0" data-slide-to="1" data-toggle="modal"><img
+                                            src="assets/images/boxing.jpg" alt="" title=""><span
+                                            class="icon-focus"></span></div>
+                                </div>
+                                <div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false"
+                                    data-tags="SPORT">
+                                    <div href="#lb-gallery2-0" data-slide-to="2" data-toggle="modal"><img
+                                            src="assets/images/basketball.jpg" alt="" title=""><span
+                                            class="icon-focus"></span></div>
+                                </div>
+                                <div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false"
+                                    data-tags="SPORT">
+                                    <div href="#lb-gallery2-0" data-slide-to="3" data-toggle="modal"><img
+                                            src="assets/images/friendsClimbing.jpg" alt="" title=""><span
+                                            class="icon-focus"></span></div>
+                                </div>
+                                <div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false"
+                                    data-tags="SPORT, TENNIS">
+                                    <div href="#lb-gallery2-0" data-slide-to="4" data-toggle="modal"><img
+                                            src="assets/images/tennis.jpg" alt="" title=""><span
+                                            class="icon-focus"></span></div>
+                                            <!-- <div href="#lb-gallery2-0" data-slide-to="4" data-toggle="modal"><img
+                                                src="assets/images/tennisCort.jpg" alt="" title=""><span
+                                                class="icon-focus"></span></div> -->
+                                </div>
+                                <div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false"
+                                    data-tags="SPORT">
+                                    <div href="#lb-gallery2-0" data-slide-to="5" data-toggle="modal"><img
+                                            src="assets/images/tennisCort.jpg" alt="" title=""><span
+                                            class="icon-focus"></span></div>
+                                </div>
+                                <div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false"
+                                    data-tags="SPORT, TENNIS">
+                                    <div href="#lb-gallery2-0" data-slide-to="6" data-toggle="modal"><img
+                                            src="assets/images/tennisCouple.jpg" alt="" title=""><span
+                                            class="icon-focus"></span></div>
+                                </div>
+                                <div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false"
+                                    data-tags="SPORT">
+                                    <div href="#lb-gallery2-0" data-slide-to="7" data-toggle="modal"><img
+                                            src="assets/images/pic3.jpg" alt="" title=""><span
+                                            class="icon-focus"></span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                
+                <!-- Lightbox -->
+                <div data-app-prevent-settings="" class="mbr-slider modal fade carousel slide" tabindex="-1"
+                    data-keyboard="true" data-interval="false" id="lb-gallery2-0">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item"><img src="assets/images/gymTraining.jpg" alt="" title="">
+                                    </div>
+                                    <div class="carousel-item"><img src="assets/images/boxing.jpg" alt="" title="">
+                                    </div>
+                                    <div class="carousel-item"><img src="assets/images/basketball.jpg" alt="" title="">
+                                    </div>
+                                    <div class="carousel-item"><img src="assets/images/friendsClimbing.jpg" alt="" title="">
+                                    </div>
+                                    <div class="carousel-item"><img src="assets/images/tennis.jpg" alt="" title="">
+                                    </div>
+                                    <div class="carousel-item active"><img src="assets/images/tennisCort.jpg" alt=""
+                                            title=""></div>
+                                    <div class="carousel-item"><img src="assets/images/tennisCouple.jpg" alt="" title="">
+                                    </div>
+                                    
+                                    <div class="carousel-item"><img src="assets/images/pic3.jpg" alt="" title="">
+                                    </div>
+                                </div><a class="carousel-control carousel-control-prev" role="button" data-slide="prev"
+                                    href="#lb-gallery2-0"><span class="mbri-left mbr-iconfont"
+                                        aria-hidden="true"></span><span class="sr-only">Previous</span></a><a
+                                    class="carousel-control carousel-control-next" role="button" data-slide="next"
+                                    href="#lb-gallery2-0"><span class="mbri-right mbr-iconfont"
+                                        aria-hidden="true"></span><span class="sr-only">Next</span></a><a class="close"
+                                    href="#" role="button" data-dismiss="modal"><span class="sr-only">Close</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="engine"><a href="https://mobirise.info/j">website templates</a></section>
+
+    <!-- image accordian end -->
+
+
+    <!-- CARD START -->
+    <div id="card">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-md-3 col-sm-12 card">
+                    <div class="bg-white border border-dark cardSub">
+                        <i class="fas fa-futbol m-auto"></i>
+                        <h6  class="text-center"><b>HOW TO GET STARTED?</b> </h6>
+                        <P class="text-center">What is the limit</P>
+                    </div>
+                    <div class="text-center cardBtn bg-white"><a href="#" class="text-dark ">KNOW MORE</a></div>
+                </div>
+                <div class="col-xl-3 col-md-3 col-sm-12 card">
+                    <div class="bg-white border border-dark cardSub">
+                        <i class="fas fa-futbol m-auto"></i>
+                        <h6  class="text-center"><b> ENROLL NOW</b></h6>
+                        <P class="text-center">join us and get ready</P>
+                    </div>
+                    <div class="text-center cardBtn bg-white"><a href="#" class="text-dark ">KNOW MORE</a></div>
+                </div>
+                <div class="col-xl-3 col-md-3 col-sm-12 card">
+                    <div class="bg-white border border-dark cardSub">
+                        <i class="fas fa-futbol m-auto"></i>
+                        <h6  class="text-center"><b> FEACTURE OF WHISTLE</b></h6>
+                        <P class="text-center">What can you do with us?</P>
+                    </div>
+                    <div class="text-center cardBtn bg-white"><a href="#" class="text-dark ">KNOW MORE</a></div>
+                </div>
+                <div class="col-xl-3 col-md-3 col-sm-12 card">
+                    <div class="bg-white border border-dark cardSub">
+                        <i class="fas fa-futbol m-auto"></i>
+                        <h6  class="text-center"><b> ADDITIONAL HELP</b></h6>
+                        <P class="text-center">All time support with us</P>
+                    </div>
+                    <div class="text-center cardBtn bg-white"><a href="#" class="text-dark ">KNOW MORE</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CARD end -->
+
+    <!-- before footer slider start -->
+    <div id="footerSlider" class="py-5 px-5">
+        <div class="container">
+            <div class="footerSlider">
+                <div><img src="../img/brand1.png" alt=""></div>
+                <div><img src="../img/brand2.png" alt=""></div>
+                <div><img src="../img/brand3.png" alt=""></div>
+                <div><img src="../img/brand1.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <!-- before footer slider end -->
+
+ <!-- footer start -->
+ <div id="footer" class=" text-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3 col-md-3 col-sm-12">
+                <img class="w-50 pb-4" src="../img//logo.png" alt="">
+                <p class="text-justify" style="line-height:29px;overflow: hidden; ">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, making it look like readable English.</p>
+            </div>
+            <div class="col-xl-3 col-md-3 col-sm-12" id="usefulLinks">
+                <h4 class="pb-4"><b>USEFUL LINKS</b></h4>
+                <ul>
+                    <li><a href="#"><i class="fa fa-check text- px-2 pb-3"></i>Membership offer</a></li>
+                    <li><a href="#"><i class="fa fa-check text- px-2 pb-3"></i>Training schedule</a></li>
+                    <li><a href="#"><i class="fa fa-check text- px-2 pb-3"></i>Inter compitions</a></li>
+                    <li><a href="#"><i class="fa fa-check text- px-2 pb-3"></i>Awards and Trophies</a></li>
+                </ul>
+            </div>
+            <div class="col-xl-3 col-md-3 col-sm-12 ">
+                <h4 class="pb-4"><b>LATEST POSTS</b></h4>
+                <div class="d-flex pb-3">
+                    <div class="w-25"><img src="../img/climbing.jpg" class="w-100" alt=""></div>
+                    <div><h6>Climbing Team</h6> <p>11 Feb 2015</p></div>
+                </div>
+                <div class="d-flex">
+                    <div class="w-25"><img src="../img/pic2.jpg" class="w-100" alt=""></div>
+                    <div><h6>Golf Court</h6> <p>11 Feb 2015</p></div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-3 col-sm-12" id="aboutFooter">
+                <h4 class="pb-4 "><b>ABOUT WHISTLE</b></h4>
+                <ul>
+                    <li class="pb-3">Monday-Friday 04:00-12:00</li>
+                    <li class="pb-3">Saturday 14:00-21:00</li>
+                    <li class="pb-3">Sunday Holiday</li>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+    
+</div>
+<!-- footer end -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+<!-- testimonial slider script -->
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="./slick/slick.min.js"></script>
+
+          
+        <script type="text/javascript">
+            // footer slider start
+                $('.footerSlider').slick({
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    infinite: true,
+                    autoplaySpeed: 2000,
+                });
+          //footer slider end
+
+          //testimonial slider
+
+          $('.slider').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            adaptiveHeight: true
+            });
+            //testimonial slider end
+        </script>
+
+ <!-- testimonial slider script end -->
+
+<!-- image accordian scripts -->
+<script src="assets/web/assets/jquery/jquery.min.js"></script>
+<script src="assets/popper/popper.min.js"></script>
+<script src="assets/tether/tether.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/smoothscroll/smooth-scroll.js"></script>
+<script src="assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js"></script>
+<script src="assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>
+<script src="assets/masonry/masonry.pkgd.min.js"></script>
+<script src="assets/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="assets/theme/js/script.js"></script>
+<script src="assets/gallery/player.min.js"></script>
+<script src="assets/gallery/script.js"></script>
+<script src="assets/slidervideo/script.js"></script>
+<!-- image accordian scripts end -->
+</body>
+
+</html>
